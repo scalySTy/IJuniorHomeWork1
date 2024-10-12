@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SphereMover : MonoBehaviour
+public class Mover : MonoBehaviour
 {
     [SerializeField] private Vector3 _movementDirection;
     [SerializeField] private float _movementSpeed = 5f;
